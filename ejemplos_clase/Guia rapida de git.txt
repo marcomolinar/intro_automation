@@ -1,0 +1,47 @@
+Guia rapida de git
+
+1.  descargar git
+2.  instalarlo 
+3.  abrimos.
+
+En github hicimos un FORK (copia al carbon de un proyecto) de github.com/jomarnavarro/intro_automation
+
+En la terminal hacemos lo siguiente
+
+1.- git clone (mas la url que vamos a clonar) - Esto sirve para clonar los proyectos de git en nuestro equipo
+2.- Fisicamente modificamos algun archivo
+3.- add 
+
+En GIT hacemos lo siguiente
+
+1.- mkdir repo - Para crear el directorio repo
+2.- ls - comando para visualizar la lista del directorio y ver el repo
+3.- cd repo - Comando para cambiar de directorio a repo
+4.- Nos pasamos al navegador donde tenemos lo de GIT
+5.- Le damos clic al botón verde CLONE OR DOWNLOAD y copiamos la liga que aparece
+6.- git clone (pegamos la dirección que copiamos en git)
+7.- ls - para verificar que se copio toda la carpeta de intro_automation/
+8.- cd intro_automation/ - Para entrar a la carpeta de intro...
+9.- Copiar un archivo de los que hicimos y pegarlo en el home
+C:\Users\dorem\repo\intro_automation\ejemplos_clase
+10.- git status - Para que git te indique que archivos sufrio cambios
+11.- git add ejemplos_clase/sinatra.side - escribir ejem y darle tab para autocompletar
+escribir Sin y sarle tab para autocompletar
+12.- git status - Para que git te indique que los cambios estan en verde
+13.- git commit -m "Mesnaje que indique el cambio realizado" - Subir el cambio
+	Si falta configurarlo entonces se aplica el comando
+	1.- git config --global user.email "lic.marcomolina@gmail.com"
+	2.- git config --global user.name "Marco Antonio Molina"
+	3.- git commit -m "Mesnaje que indique el cambio realizado" - Subir el cambio
+14 .- git status - Visualizas que no hay nada a que hacerle commit
+15 .- git push origin master - Para subir el cambio, ingresamos las credenciales
+16 .- Revisar que en web ya se ve el cambio realizado al archivo
+
+
+comandos:  
+pwd - me da la ruta actual
+ls - lista los direct y archivos
+mkdir - crear directorio     mkdir repo
+cd - cambiar a otro directorio
+rm -rf <nombre carpeta> - remueve o borra archivos.  NUNCA LO HAGAN EN ROOT /c NUUUUNCA
+
